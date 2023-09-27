@@ -398,6 +398,20 @@
             </li>
           </ul>
         </div>
+        <div>
+          <form class="form-footer">
+            <p class="form-par">Subscribe</p>
+            <div class="input-btn-footer">
+              <input class="input-foot" type="email" name="email" placeholder="E-mail" required />
+              <button type="submit" class="button-footer"
+                ><span class="text-footer-form"
+                  >Subscribe
+                  <svg class="svg-footer-button" width="16" height="16">
+                    <use href="./images/icons.svg#icon-footer-button"></use></svg></span
+              ></button>
+            </div>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -405,10 +419,10 @@
       ><div class="modal">
         <button class="btn-close" type="button" data-modal-close>
           <svg class="btn-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close"></use>
+            <use href="./images/icons.svg#icon-close-cross"></use>
           </svg>
         </button>
-        <p class="title-form"> Leave a review about... </p>
+        <p class="title-form"> Leave your contacts and we will call you back </p>
         <form class="form-mod">
           <div class="modal-form-div">
             <label class="modal-form-label" for="user-name">Name</label>
@@ -463,8 +477,7 @@
             />
             <span class="modal-form-span">
               <svg width="16" height="16" class="modal-form-svg">
-                <!-- встав квадрат -->
-                <use href="./images/icons.svg"></use>
+                <use href="./images/icons.svg#icon-checked-click"></use>
               </svg>
             </span>
             <label class="modal-form-label-checkbox" for=""
@@ -473,8 +486,9 @@
             >
           </div>
 
-          <!--зроби кнопку-->
-          <button></button>
+          <button type="submit" class="modal-btn-send"
+            ><span class="modal-btn-text">Send</span></button
+          >
         </form>
       </div>
     </div>

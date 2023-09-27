@@ -838,6 +838,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 360px;
+  margin-bottom: 16px;
 }
 
 .modal-form-label {
@@ -933,4 +934,77 @@ button {
 
 .modal-form-checkbox:checked + .modal-form-label-checkbox > .modal-form-span {
   background-color: #4d5ae5;
+}
+
+.modal-btn-send {
+  padding: 16px 32px;
+  width: 169px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border-color: #4d5ae5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.modal-btn-text {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.button-footer {
+  padding: 8px 24px;
+  background-color: #4d5ae5;
+  border-color: #4d5ae5;
+  border-radius: 4px;
+  width: 165px;
+}
+
+.text-footer-form {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.svg-footer-button {
+  fill: #ffffff;
+}
+
+.input-btn-footer {
+  display: flex;
+  gap: 24px;
+}
+
+.input-foot {
+  color: #fff;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  background-color: #2e2f42;
+}
+
+.input-foot::placeholder {
+  color: #fff;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.48px;
+  padding: 8px 212px 8px 16px;
+}
+
+.form-par {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 16px;
 }
