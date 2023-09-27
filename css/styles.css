@@ -888,7 +888,7 @@ button {
 
 .modal-form-div {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-textarea {
@@ -974,12 +974,6 @@ button {
   align-items: center;
   justify-content: center;
   fill: transparent;
-}
-
-.modal-form-checkbox:checked .modal-form-span {
-  background-color: var(--input-color);
-  border: none;
-  fill: var(--logo-team);
 }
 
 .modal-btn-send {
