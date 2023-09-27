@@ -960,7 +960,9 @@ button {
 }
 
 .modal-form-checkbox:checked + .modal-form-label-checkbox > .modal-form-span {
-  background-color: #4d5ae5;
+  background-color: var(--input-color);
+  border: none;
+  fill: var(--logo-team);
 }
 
 .modal-form-span {
@@ -1057,8 +1059,6 @@ button {
   position: relative;
 }
 
-.modal-form-checkbox:checked + .modal-form-span {
-  background-color: var(--input-color);
-  border: none;
-  fill: var(--logo-team);
+.form-mod {
+  margin-bottom: 8px;
 }
