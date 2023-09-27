@@ -869,7 +869,7 @@ button {
 }
 
 .box-input:focus-within + .box-input-svg {
-  stroke: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .box-input-svg {
@@ -888,7 +888,7 @@ button {
 
 .modal-form-div {
   position: relative;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
 .form-textarea {
@@ -994,6 +994,8 @@ button {
   color: #ffffff;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: #4d5ae5;
+  border-radius: 4px;
 }
 
 .modal-btn-text {
