@@ -888,7 +888,7 @@ button {
 
 .modal-form-div {
   position: relative;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .form-textarea {
@@ -935,7 +935,7 @@ button {
 }
 
 .modal-form-label-checkbox {
-  color: var (--label-color);
+  color: var(--label-color);
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -1061,4 +1061,10 @@ button {
 
 .form-input-box {
   position: relative;
+}
+
+.modal-form-checkbox:checked + .modal-form-span {
+  background-color: var(--input-color);
+  border: none;
+  fill: var(--logo-team);
 }
